@@ -6,8 +6,7 @@ const ProductList = () => {
   const { addToCart } = useContext(CartContext);
 
   useEffect(() => {
-fetch(`${import.meta.env.VITE_API_URL}/products`)
-
+    fetch("http://localhost:5000/products")
       .then(res => res.json())
       .then(data => setProducts(data));
   }, []);
