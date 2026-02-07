@@ -1,0 +1,12 @@
+{
+  "projects": [
+    {
+      "name": "frontend",
+      "rootDirectory": "frontend",
+      "framework": "vite",
+      "env": {
+        "VITE_API_URL": "https://rjrn-assessment-2.onrender.com"
+      }
+    }
+  ]
+}
